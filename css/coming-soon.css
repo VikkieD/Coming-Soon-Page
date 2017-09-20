@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+a:link {
+  color: #fcc630;
+  font-size: 16px;
+}
+
+a:visited {
+  color: #fcc630;
+}
+
+.bgimg {
+    background-color: #7a34a7;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fcc630;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
